@@ -1,0 +1,40 @@
+/*globals*/
+.margin-l-100px{
+    margin-left:0;
+}
+
+@media (min-width:769px){
+    .margin-l-100px{
+    margin-left: 100px;
+}
+}
+.img-centered{
+  margin: 0 auto;
+}
+.centered{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.line-through{
+    text-decoration: line-through;
+}
+/*****header*****/
+
+/*navbar*/
+.logo{
+    max-width: 80px;
+}
+.logo img{border-radius: 50%;}
+
+/*hero*/
+.hero-text{
+    display: flex;
+    align-items: center;
+}
+/*footer*/
+footer div.logo img{
+    display: flex;
+    justify-content: center;
+}
