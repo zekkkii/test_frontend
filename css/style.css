@@ -1,15 +1,16 @@
 /*globals*/
+
 .margin-l-100px{
     margin-left:0;
 }
 
 @media (min-width:769px){
     .margin-l-100px{
-    margin-left: 100px;
-}
+        margin-left: 100px;
+    }
 }
 .img-centered{
-  margin: 0 auto;
+    margin: 0 auto;
 }
 .centered{
     justify-content: center;
@@ -20,6 +21,18 @@
 .line-through{
     text-decoration: line-through;
 }
+.yellow{
+    color: rgb(231, 162, 12);
+}
+.yellow-button{
+    background-color: rgb(231, 162, 12);
+}
+.grey{
+    background-color: rgb(231, 231, 231);
+}
+.light-orange{
+    background-color: rgb(252, 236, 216);
+}
 /*****header*****/
 
 /*navbar*/
@@ -28,6 +41,8 @@
 }
 .logo img{border-radius: 50%;}
 
+
+/*****end-header*****/
 /*hero*/
 .hero-text{
     display: flex;

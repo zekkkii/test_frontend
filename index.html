@@ -8,8 +8,8 @@
   <title>Frontend Test</title>
 </head>
 <body>
-  <header>
-    <nav class="navbar mt-1">
+  <header class="grey">
+    <nav class="navbar pb-5 grey">
       <div class="navbar-brand logo py-3 ml-6">
         <div>
           <img src="assets/logo.jpg" alt="logo">
@@ -20,7 +20,7 @@
         <span></span>
         <span></span>
       </a>  
-      <div class="navbar-menu" id="navMenu">
+      <div class="navbar-menu grey" id="navMenu">
         <div class="navbar-end">
           <a href="#" class="navbar-item">Example</a>
           <a href="#" class="navbar-item">Example</a>
@@ -31,136 +31,167 @@
         </div>
       </div>
     </nav>
-    <div class="columns">
-      <div class="column is-5 p-6 ml-5 hero-text">
+    <div class="columns pt-6 pb-3">
+      <div class="column is-3 py-6 ml-6 pl-6 pr-4 hero-text is-light">
         <div>
-          <span class="is-size-5">Lorem ipsum dolor sit amet.</span>
-          <h1 class="is-size-3">Lorem, ipsum dolor.</h1>
-          <span class="is-size-5 my-5">Lorem ipsum dolor sit amet.</span>
-          <p class="is-size-6 pr-6 Dolorem, delectus.">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere consequatur nam id est corporis dolor labore. Esse perferendis sequi optio quisquam unde. Magni officia animi facere fugit similique cum maxime?</p>
-          <p class="my-4 is-size-4">$ 20,500</p>
-          <a class="button is-primary">Buy it now!</a>
+          <span class="is-size-4 yellow has-text-weight-bold pb-6">Lorem ipsum dolor si.</span>
+          <h1 class="is-size-3 has-text-weight-bold pb-3">Loremass, <span class="is-block">ipsum</span></h1>
+          <span class="is-size-5 py-6 yellow has-text-weight-medium">Lorem ipsum dolor sit amet.</span>
+          <p class="is-size-6 pr-6 Dolorem, delectus. yellow pt-6">Lorem ipsum dolor sit amet.Magni officia animi facere fugit similique cum maxime?</p>
+          <p class="py-5 is-size-4 has-text-weight-bold">$ 20,500</p>
+          <a class="button is-medium has-text-light yellow-button has-text-light">Buy it now!</a>
         </div>
       </div>
-      <div class="column">
-        <h1 class="is-size-4 my-5 px-5 has-text-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+      <div class="column is-8 pb-3 pl-0">
         <div>
-          <img src="assets/hero1.jpg">
+          <h1 class="is-size-4 mt-5 pb-6 px-5 has-text-centered mb-6 has-text-weight-bold">Lorem ipsum dolor sit amet consectetur.</h1>
+          <div class="is-flex centered pt-6 mt-2">
+            <figure class="px-5">
+              <img src="assets/hero1.png" >
+            </figure>
+          </div>
         </div>
       </div>
     </div>
   </header>   
-  <!--section 1-->
-  <section class="columns my-6 ">
-    <div class="column is-6 p-4 is-flex centered">
-      <div>
-        <img src="assets/hero2.jpg" alt="">
-      </div>
+  <!--section-1 -->
+  <section class="is-flex-tablet mt-3 is-justify-content-center ">
+    <div class="column is-6-tablet is-flex centered light-orange">
+      <figure>
+        <img src="assets/hero2.png" alt="">
+      </figure>
     </div>
-    <div class="column is-12-mobile is-6-tablet is-flex-tablet p-4">
-      <div class="has-text-centered-mobile px-3">
-        <span class="has-text-weight-bold is-size-4">Lorem, ipsum dolor.</span>
-        <h1 class="has-text-weight-b7ld is-size-4">Lorem ipsum dolor sit.</h1>
-        <p class="is-size-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, at.</p>
-        <p class="has-text-weight-medium is-size-5 my-3">$ 50,000</p>
-        <a href="#" class="button is-primary my-4">Buy it now!</a>
+    <div class="column is-6-tablet is-flex-tablet">
+      <div class=" column is-flex align-center ml-6">
+        <div class="column  has-text-centered-mobile px-3 pt-6 ">
+          <span class="has-text-weight-medium yellow is-size-4-desktop">Lorem, ipsum dolor.</span>
+          <h1 class="has-text-weight-bold is-size-4-desktop pt-5">Lorem ipsum dolor sit.</h1>
+          <p class="is-size-5-desktop py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. Enim, at Lorem ipsum dolor sit amet..</p>
+          <p class="has-text-weight-bold is-size-5-desktop mt-3">$ 50,000</p>
+          <a href="#" class="button is-medium has-text-light yellow-button my-6">Buy it now!</a>
+        </div>
+        <div class="column is-flex is-justify-content-flex-end pb-5 mb-6">
+          <div class="column is-8-tablet">
+            <figure class=""><img src="assets/sec-1-1.png"></figure>
+            <figure class=""><img src="assets/sec-1-2.png"></figure>
+            <figure class=""><img src="assets/sec-1-3.png"></figure>
+          </div>
+        </div>
       </div>
-      <div class="column is-full-mobile is-5-tablet is-flex-mobile centered"><img src="assets/1.jpg" alt=""></div>
     </div>
   </section>
   <!--section 2-->
-  <section class="columns my-6 ">
-    <div class="column is-12-mobile is-7-tablet is-flex-tablet p-4">
-      <div class="column is-full-mobile is-6-tablet is-flex centered pl-0">
-        <div class="ml-6">
-          <img src="assets/hero3.jpg" alt="">
+    <section class="columns">
+      <div class="column is-6-tablet is-flex-tablet">
+        <div class=" column is-flex">
+          <div class="column  mt-5">
+            <figure class="column is-6-desktop"><img src="assets/sec-1-1.png"></figure>
+            <figure class="column is-6-desktop"><img src="assets/sec-1-2.png"></figure>
+            <figure class="column is-6-desktop"><img src="assets/sec-1-3.png"></figure>
+          </div>
+          <div class="column  has-text-centered-mobile px-3 mt-6 pt-6 ">
+            <span class="has-text-weight-medium yellow is-size-4">Lorem, ipsum dolor.</span>
+            <h1 class="has-text-weight-bold is-size-4 pt-5">Lorem ipsum dolor sit.</h1>
+            <p class="is-size-5 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, at Lorem ipsum dolor sit amet..</p>
+            <p class="has-text-weight-bold is-size-5 mt-3">$ 50,000</p>
+            <a href="#" class="button is-medium has-text-light yellow-button my-4">Buy it now!</a>
+          </div>
         </div>
       </div>
-      <div class="has-text-centered-mobile px-3">
-        <span class="has-text-weight-bold is-size-4">Lorem, ipsum dolor.</span>
-        <h1 class="has-text-weight-b7ld is-size-4">Lorem ipsum dolor sit.</h1>
-        <p class="is-size-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, at.</p>
-        <p class="has-text-weight-medium is-size-5 my-3">$ 50,000</p>
-        <a href="#" class="button is-primary my-4">Buy it now!</a>
-      </div>
-    </div>
-    <div class="column is-4 p-4 is-flex centered">
-      <div>
-        <img src="assets/2.jpg" alt="">
-      </div>
+    <div class="column is-6-tablet is-flex centered light-orange">
+      <figure>
+        <img src="assets/lamp.png" alt="">
+      </figure>
     </div>
   </section>
   <!--section 3-->
-  <section class="columns px-3 my-6 is-flex-tablet has-text-centered">
-    <div class="column is-3">
-      <div><img src="assets/4.jpg"></div>
-      <h2 class="has-text-weight-bold is-size-5">Lorem, ipsum dolor.</h2>
+  <section class="columns  has-text-centered">
+    <div class="column is-3 grey">
+      <div class="is-flex centered">
+        <figure class="column is-7"><img src="assets/sec-1-1.png"></figure>
+      </div>
+      <h2 class="has-text-weight-bold is-size-5 mt-5">Lorem, ipsum dolor.</h2>
       <p><span class="line-through">$ 15,000</span> $ 10,000</p>
-      <a href="#" class="button is-primary my-4">Buy it now!</a>
+      <a href="#" class="button is-medium has-text-light yellow-button my-6">Buy it now!</a>
     </div>
-    <div class="column is-3">
-      <div><img src="assets/5.jpg" alt=""></div>
-      <h2 class="has-text-weight-bold is-size-5">Lorem, ipsum dolor.</h2>
+    <div class="column is-3 light-orange">
+      <div class="is-flex centered">
+        <figure class="column is-7"><img src="assets/sec-1-2.png" alt=""></figure>
+      </div>
+      <h2 class="has-text-weight-bold is-size-5 mt-6">Lorem, ipsum dolor.</h2>
       <p><span class="line-through">$ 15,000</span> $ 10,000</p>
-      <a href="#" class="button is-primary my-4">Buy it now!</a>
+      <a href="#" class="button is-medium has-text-light yellow-button my-6">Buy it now!</a>
     </div>
-    <div class="column is-3">
-      <div><img src="assets/6.jpg" alt=""></div>
-      <h2 class="has-text-weight-bold is-size-5">Lorem, ipsum dolor.</h2>
+    <div class="column is-3 grey">
+      <div class="is-flex centered">
+        <figure class="column is-7"><img src="assets/sec-1-3.png" alt=""></figure>
+      </div>
+      <h2 class="has-text-weight-bold is-size-5 mt-6 pt-4">Lorem, ipsum dolor.</h2>
       <p><span class="line-through">$ 15,000</span> $ 10,000</p>
-      <a href="#" class="button is-primary my-4">Buy it now!</a>
+      <a href="#" class="button is-medium has-text-light yellow-button my-6">Buy it now!</a>
     </div>
-    <div class="column is-3">
-      <div><img src="assets/7.jpg" alt=""></div>
-      <h2 class="has-text-weight-bold is-size-5">Lorem, ipsum dolor.</h2>
+    <div class="column is-3 light-orange">
+      <div class="is-flex centered">
+        <figure class="column is-7"><img src="assets/sec-1-1.png" alt=""></figure>
+      </div>
+      <h2 class="has-text-weight-bold is-size-5 mt-5">Lorem, ipsum dolor.</h2>
       <p><span class="line-through">$ 15,000</span> $ 10,000</p>
-      <a href="#" class="button is-primary my-4">Buy it now!</a>
+      <a href="#" class="button is-medium has-text-light yellow-button my-6">Buy it now!</a>
     </div>
   </section>
     <!--section 4-->
-    <section class="columns is-multiline  my-6 px-3">
-      <div class="column is-6-tablet is-flex-mobile centered">
+    <section class="columns is-multiline  my-6">
+      <div class="column cis-6-tablet is-flex-mobile centered">
         <div class="is-flex-mobile centered">
-          <div class="column is-flex centered pr-0 ml-6-tablet">
-            <div class="is-flex align-center">
-              <div>
-                <img src="assets/8.jpg">
+          <div class="">
+            <div class="is-flex is-justify-content-flex-end">
+              <div class="column is-4-tablet">
+                <h2 class="has-text-weight-bold ">Lorem ipsum dolor sit.</h2>
+                <p><span class="line-through">$ 15,000</span> $ 10,000</p>
+                <a href="#" class="button is-medium has-text-light yellow-button my-4">Buy it now!</a>
               </div>
             </div>
-            <div class="column is-4-tablet">
-              <h2 class="has-text-weight-bold ">Lorem ipsum dolor sit.</h2>
-              <p><span class="line-through">$ 15,000</span> $ 10,000</p>
-              <a href="#" class="button is-primary my-4">Buy it now!</a>
+            <div class="is-flex is-justify-content-center mt-6">
+              <figure>
+                <img src="assets/sofa.png">
+              </figure>
             </div>
           </div>
         </div>
       </div>
       <div class="column is-3-tablet is-flex-mobile centered">
         <div class="has-text-centered">
-          <div><img src="assets/9.jpg" alt=""></div>
+          <div class="is-flex is-justify-content-center">
+            <figure class="column is-9">
+              <img src="assets/sofa2.png" alt="">
+            </figure>
+          </div>
           <h2 class="has-text-weight-bold is-size-5">Lorem, ipsum dolor.</h2>
           <p><span class="line-through">$ 15,000</span> $ 10,000</p>
-          <a href="#" class="button is-primary my-4">Buy it now!</a>
+          <a href="#" class="button is-medium has-text-light yellow-button my-4">Buy it now!</a>
         </div>
         </div>
       <div class="column is-3-tablet">
-        <div class="is-flex-mobile centered">
-          <div>
-            <div><img src="assets/10.jpg" alt=""></div>
-            <h2 class="has-text-weight-bold is-size-5">Lorem, ipsum dolor.</h2>
-            <p><span class="line-through">$ 15,000</span> $ 10,000</p>
-            <a href="#" class="button is-primary my-4">Buy it now!</a>
+        <div class="has-text-centered">
+          <div class="is-flex is-justify-content-center">
+            <figure class="column is-9">
+              <img src="assets/sofa2.png" alt="">
+            </figure>
           </div>
+          <h2 class="has-text-weight-bold is-size-5">Lorem, ipsum dolor.</h2>
+          <p><span class="line-through">$ 15,000</span> $ 10,000</p>
+          <a href="#" class="button is-medium has-text-light yellow-button my-4">Buy it now!</a>
+        </div>
         </div>
       </div>
     </div>
   </section>
   <!--footer-->
-  <footer class="has-background-light px-5">
-    <div class="logo img-centered py-6"><img src="assets/logo.jpg"></div>
-    <div class="container mb-6 is-block has-text-centered">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, fuga alias sint iusto consequatur aut amet sed ut, voluptate libero in et laboriosam, corrupti natus impedit exercitationem nostrum. Beatae cumque quibusdam mollitia odio pariatur, aliquam exercitationem necessitatibus, voluptas facere sint ipsum inventore, accusamus explicabo! Animi voluptatem in, modi ullam error dolores vero quos autem quam voluptatibus mollitia.</p>
-      <p class="mt-2">Ea voluptate omnis, architecto, perferendis libero minus incidunt provident hic consequatur odio autem quidem minima at cumque animi accusantium necessitatibus veniam non sint vitae beatae assumenda repudiandae numquam. Eligendi quo sit labore qui dolore magnam consequatur soluta assumenda molestiae unde praesentium inventore totam fuga nobis magni debitis harum, odit officiis voluptates mollitia. Ad minus aperiam maxime quaerat! Minima et, pariatur quos dolores nesciunt alias. Quas, dolores. Eos veritatis reiciendis non expedita deserunt sed, sint ex odit tempora harum, error earum, esse alias eligendi. In provident esse vitae, qui tempora consequuntur cum est, quis sint laboriosam, commodi amet?</p>
+  <footer class="grey">
+    <div class="logo img-centered pt-6 pb-4"><img src="assets/logo.jpg"></div>
+    <div class="container column is-8 mb-6 is-block px-5">
+      <p>Voluptate libero in et laboriosam, corrupti natus impedit exercitationem nostrum. Beatae cumque quibusdam mollitia odio pariatur, aliquam exercitationem necessitatibus, voluptas facere sint ipsum inventore, accusamus explicabo! Animi voluptatem in, modi ullam error dolores vero quos autem quam voluptatibus mollitia.</p>
+      <p class="mt-2">Odit officiis voluptates mollitia. Ad minus aperiam maxime quaerat! Minima et, pariatur quos dolores nesciunt alias. Quas, dolores. Eos veritatis reiciendis non expedita deserunt sed, sint ex odit tempora harum, error earum, esse alias eligendi. In provident esse vitae, qui tempora consequuntur cum est, quis sint laboriosam, commodi amet?</p>
     </div>
     <div class="is-flex-tablet has-text-centered pb-6">
       <div class="navbar-menu column">
